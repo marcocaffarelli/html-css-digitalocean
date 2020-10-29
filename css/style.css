@@ -1,0 +1,35 @@
+/* Struttura */
+.bg_blue{
+  background-color: lightblue;
+}
+
+.bg_grey{
+  background-color: lightgrey;
+}
+
+.bg_linear_blue{
+  background-color: blue;
+}
+
+.bg_dark_blue{
+  background-color: darkblue;
+}
+
+.header_text, .gen_footer{
+  height: 400px;
+}
+.prima, .settima{
+  height: 200px;
+}
+.seconda{
+  height: 500px;
+}
+.terza, .sesta{
+  height: 600px;
+}
+.quarta, .quinta{
+  height: 300px;
+}
+
+
+/* utility */
