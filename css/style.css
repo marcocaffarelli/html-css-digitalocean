@@ -5,7 +5,7 @@ font-family: 'Roboto', sans-serif;
 /* Struttura */
 
 .bg_grey{
-  background-color: lightgrey;
+  background-color: rgb(243, 245, 249);
 }
 
 .bg_linear_blue{
@@ -19,7 +19,7 @@ font-family: 'Roboto', sans-serif;
 .gen_footer{
   height: 400px;
 }
-.prima, .settima{
+.settima{
   height: 200px;
 }
 .seconda{
@@ -43,6 +43,10 @@ font-family: 'Roboto', sans-serif;
 
 .c_lightblue{
   color: rgb(0,124,247);
+}
+
+.py_30{
+  padding: 30px 0;
 }
 
 /****** header ******/
@@ -125,14 +129,18 @@ header .row h3:first-child{
 .google_button img{
   height: 22px;
   margin: 6px 0;
-  position: relative;
-  right: 176px;
 }
 
 .text_form{
   font-size: 10px;
   padding-top: 15px;
   padding-bottom: 30px;
+}
+
+/****** main ******/
+
+.prima img{
+  height: 80%;
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px){
