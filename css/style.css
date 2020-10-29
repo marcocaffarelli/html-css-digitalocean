@@ -19,14 +19,14 @@ font-family: 'Roboto', sans-serif;
 .gen_footer{
   height: 400px;
 }
-.settima{
+.settima_sezione{
   height: 200px;
 }
 
-.terza, .sesta{
+.sesta_sezione{
   height: 600px;
 }
-.quarta, .quinta{
+.quarta_sezione, .quinta_sezione{
   height: 300px;
 }
 
@@ -45,6 +45,10 @@ font-family: 'Roboto', sans-serif;
 
 .py_30{
   padding: 30px 0;
+}
+
+.fs_10{
+  font-size: 10px;
 }
 
 /****** header ******/
@@ -130,12 +134,16 @@ header .row h3:first-child{
 }
 
 .text_form{
-  font-size: 10px;
   padding-top: 15px;
   padding-bottom: 30px;
 }
 
 /****** main ******/
+
+.seconda_sezione, .terza_sezione, .quarta_sezione, .quinta_sezione, .sesta_sezione, .settima_sezione{
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
 /* prima sezione */
 
 .prima_sezione img{
@@ -143,7 +151,7 @@ header .row h3:first-child{
 }
 
 /* seconda sezione */
-.seconda_sezione h2, .seconda h6{
+.seconda_sezione h2, .seconda_sezione h6, .terza_sezione h2{
   color: rgb(3, 28, 78);
 }
 
@@ -156,11 +164,52 @@ header .row h3:first-child{
   list-style: none;
   border-left: 1px solid grey;
   padding: 5px;
+}
 
+/* terza sezione */
+.terza_sezione img{
+  width: 50%;
+}
+
+.terza_sezione p{
+  color: rgb(91, 105, 135);
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.car_text{
+  color: rgb(3, 28, 78);
+  margin-top: 10px;
+}
+
+.fa-circle{
+  font-size: 10px;
+  color: rgb(0,124,247);
 }
 
 
 @media screen and (min-width: 768px) and (max-width: 991px){
+
   .nav>li>a {
     padding: 15px 5px;
+  }
+
+  .terza_sezione img{
+    padding-top: 80px;
+  }
+
+  .car_text{
+    padding-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 767px){
+
+  .terza_sezione img{
+    padding-top: 80px;
+  }
+
+  .car_text{
+    padding-bottom: 60px;
+  }
 }
