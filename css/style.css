@@ -59,7 +59,21 @@
   padding: 2px 5px;
   margin: 12px;
 }
-/* #cont_white:after{
+
+.navbar-default .navbar-toggle .icon-bar{
+  background-color: rgb(0,124,247);
+}
+
+.navbar-default .navbar-toggle {
+    border: none;
+    padding: 10px 10px;
+  }
+ /* #cont_white:after{
   font-family: "Font Awesome 5 Free";
-  content: "\f107";
+  content: "\f078";
 } */
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+  .nav>li>a {
+    padding: 15px 5px;
+}
