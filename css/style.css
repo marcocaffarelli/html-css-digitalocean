@@ -22,9 +22,7 @@ font-family: 'Roboto', sans-serif;
 .settima{
   height: 200px;
 }
-.seconda{
-  height: 500px;
-}
+
 .terza, .sesta{
   height: 600px;
 }
@@ -87,7 +85,7 @@ font-family: 'Roboto', sans-serif;
 } */
 
 /* header text */
-header .row h1, p{
+header .row h1, header .row p{
   color: white;
   text-shadow: 2px 2px black;
 }
@@ -138,10 +136,29 @@ header .row h3:first-child{
 }
 
 /****** main ******/
+/* prima sezione */
 
-.prima img{
+.prima_sezione img{
   height: 80%;
 }
+
+/* seconda sezione */
+.seconda_sezione h2, .seconda h6{
+  color: rgb(3, 28, 78);
+}
+
+.seconda_sezione p{
+  color: rgb(91, 105, 135);
+}
+
+.seconda_sezione li{
+  color: rgba(3, 27, 78, 0.6);
+  list-style: none;
+  border-left: 1px solid grey;
+  padding: 5px;
+
+}
+
 
 @media screen and (min-width: 768px) and (max-width: 991px){
   .nav>li>a {
