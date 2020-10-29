@@ -33,3 +33,33 @@
 
 
 /* utility */
+
+/* header */
+
+/* navbar */
+
+.navbar{
+  background-color: white;
+  border: none;
+  margin-bottom: 0;
+}
+
+.navbar-brand img{
+  height: 100%;
+}
+
+.navbar-default .navbar-nav>li>a{
+  color: black;
+}
+
+#signup{
+  color: rgb(0,124,247);
+  border: 1px solid rgb(0,124,247);
+  border-radius: 5px;
+  padding: 2px 5px;
+  margin: 12px;
+}
+/* #cont_white:after{
+  font-family: "Font Awesome 5 Free";
+  content: "\f107";
+} */
