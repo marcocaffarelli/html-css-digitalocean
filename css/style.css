@@ -37,6 +37,13 @@ font-family: 'Roboto', sans-serif;
   background-color: white;
 }
 
+.c_darkblue{
+  color: rgb(3, 28, 78);
+}
+
+.c_lightblue{
+  color: rgb(0,124,247);
+}
 
 /****** header ******/
 /* navbar */
@@ -80,6 +87,11 @@ header .row h1, p{
   color: white;
   text-shadow: 2px 2px black;
 }
+
+header .row h3:first-child{
+ padding-top: 40px;
+}
+
 .bg_blue{
   background-image: url(../img/ocean.jpg);
   background-repeat: no-repeat;
@@ -90,6 +102,37 @@ header .row h1, p{
 .container_form{
   margin: 20px 0;
   border-radius: 5px;
+}
+.container_form input, .container_form button, .container_form .google_button{
+  width: 95%;
+  margin: auto;
+}
+
+.container_form button{
+  background-color: rgb(87, 154, 255);
+  color: white;
+  margin-left: 2.5%;
+}
+
+.google_button{
+  height: 34px;
+  box-shadow: 2px 2px 1px lightgrey;
+  width: 95%;
+  margin: auto;
+  border-radius: 5px;
+}
+
+.google_button img{
+  height: 22px;
+  margin: 6px 0;
+  position: relative;
+  right: 176px;
+}
+
+.text_form{
+  font-size: 10px;
+  padding-top: 15px;
+  padding-bottom: 30px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px){
