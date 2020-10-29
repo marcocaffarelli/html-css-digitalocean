@@ -1,7 +1,8 @@
-/* Struttura */
-.bg_blue{
-  background-color: lightblue;
+*{
+font-family: 'Roboto', sans-serif;
 }
+
+/* Struttura */
 
 .bg_grey{
   background-color: lightgrey;
@@ -15,7 +16,7 @@
   background-color: darkblue;
 }
 
-.header_text, .gen_footer{
+.gen_footer{
   height: 400px;
 }
 .prima, .settima{
@@ -31,13 +32,14 @@
   height: 300px;
 }
 
-
 /* utility */
+.bc_white{
+  background-color: white;
+}
 
-/* header */
 
+/****** header ******/
 /* navbar */
-
 .navbar{
   background-color: white;
   border: none;
@@ -72,6 +74,23 @@
   font-family: "Font Awesome 5 Free";
   content: "\f078";
 } */
+
+/* header text */
+header .row h1, p{
+  color: white;
+  text-shadow: 2px 2px black;
+}
+.bg_blue{
+  background-image: url(../img/ocean.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.container_form{
+  margin: 20px 0;
+  border-radius: 5px;
+}
 
 @media screen and (min-width: 768px) and (max-width: 991px){
   .nav>li>a {
