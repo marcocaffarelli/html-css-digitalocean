@@ -275,6 +275,43 @@ footer ul li:first-child{
   font-weight: bolder;
 }
 
+.fixed{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1;
+}
+
+.nuvoletta{
+  background-color: white;
+  border-radius: 5px;
+  width: 150px;
+  display: inline-block;
+}
+.square{
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+}
+
+.square img{
+  width: 100%;
+  border-radius: 5px;
+}
+
+.num_2{
+  position: fixed;
+  bottom: 85px;
+  right: 5px;
+  z-index: 2;
+  color: white;
+  font-weight: bold;
+  background-color: red;
+  border: 5px solid white;
+  border-radius: 50%;
+  padding: 0 6px;
+}
+
 
 @media screen and (min-width: 768px) and (max-width: 991px){
 
