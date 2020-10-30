@@ -207,8 +207,13 @@ header .row h3:first-child{
   color: rgb(0, 215, 210);
 }
 
+.quinta_sezione a:after{
+  font-family: "Font Awesome 5 Free";
+  content: "\f105";
+}
+
 .row .row .col-xs-7{
-  opacity: 0.6;
+  color: lightgrey;
 }
 
 .row .row div{
@@ -244,3 +249,9 @@ header .row h3:first-child{
     padding-bottom: 60px;
   }
 }
+
+/* @media screen and (max-width: 500px){
+
+  .row .row div{
+    font-size: 10px;
+  } */
