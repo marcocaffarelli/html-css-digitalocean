@@ -23,11 +23,6 @@ font-family: 'Roboto', sans-serif;
   height: 200px;
 }
 
-.sesta_sezione{
-  height: 600px;
-}
-
-
 /* utility */
 .bc_white{
   background-color: white;
@@ -152,7 +147,7 @@ header .row h3:first-child{
 }
 
 /* seconda sezione */
-.seconda_sezione h2, .seconda_sezione h6, .terza_sezione h2, .quarta_sezione h2, .quarta_sezione h6{
+.seconda_sezione h2, .seconda_sezione h6, .terza_sezione h2, .quarta_sezione h2, .quarta_sezione h6 .sesta_sezione h2{
   color: rgb(3, 28, 78);
 }
 
@@ -223,6 +218,22 @@ header .row h3:first-child{
   margin: 0 1px;
 }
 
+/* sesta sezione */
+.white_container{
+  background-color: white;
+  width: 50%;
+  margin: auto;
+  padding: 10% 0;
+}
+
+.white_container img{
+  width: 50%;
+}
+
+.fs_22{
+  font-size: 22px;
+  color: rgb(91, 105, 135);
+}
 
 @media screen and (min-width: 768px) and (max-width: 991px){
 
@@ -250,8 +261,13 @@ header .row h3:first-child{
   }
 }
 
-/* @media screen and (max-width: 500px){
+@media screen and (max-width: 512px){
+
+  .row .row div{
+    padding: 0;
+  }
+  @media screen and (max-width: 500px){
 
   .row .row div{
     font-size: 10px;
-  } */
+  }
