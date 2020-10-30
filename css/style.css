@@ -337,6 +337,27 @@ footer ul li:first-child{
   .car_text{
     padding-bottom: 60px;
   }
+
+
+.nuvoletta{
+  position: fixed;
+  left: 5px;
+  bottom: 20px;
+
+}
+.square{
+  position: fixed;
+  left: 5px;
+  bottom: 90px;
+}
+
+
+.num_2{
+  position: fixed;
+  bottom: 155px;
+  left: 69px;
+  right: auto;
+
 }
 
 @media screen and (max-width: 512px){
