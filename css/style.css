@@ -26,7 +26,7 @@ font-family: 'Roboto', sans-serif;
 .sesta_sezione{
   height: 600px;
 }
-.quarta_sezione, .quinta_sezione{
+.quinta_sezione{
   height: 300px;
 }
 
@@ -151,11 +151,11 @@ header .row h3:first-child{
 }
 
 /* seconda sezione */
-.seconda_sezione h2, .seconda_sezione h6, .terza_sezione h2{
+.seconda_sezione h2, .seconda_sezione h6, .terza_sezione h2, .quarta_sezione h2, .quarta_sezione h6{
   color: rgb(3, 28, 78);
 }
 
-.seconda_sezione p{
+.seconda_sezione p, .quarta_sezione p{
   color: rgb(91, 105, 135);
 }
 
@@ -184,6 +184,16 @@ header .row h3:first-child{
 
 .fa-circle{
   font-size: 10px;
+  color: rgb(0,124,247);
+}
+
+/* quarta sezione */
+
+.quarta_sezione img{
+  margin-top: 30px;
+}
+
+.quarta_sezione a{
   color: rgb(0,124,247);
 }
 
