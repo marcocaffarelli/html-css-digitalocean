@@ -8,9 +8,6 @@ font-family: 'Roboto', sans-serif;
   background-color: rgb(243, 245, 249);
 }
 
-.bg_linear_blue{
-   background-image: linear-gradient(to bottom, rgba(0,72,197,1), rgba(0,30,154,1));
-}
 
 .bg_dark_blue{
   background-color: darkblue;
@@ -19,11 +16,11 @@ font-family: 'Roboto', sans-serif;
 .gen_footer{
   height: 400px;
 }
-.settima_sezione{
-  height: 200px;
-}
 
 /* utility */
+.bg_linear_blue{
+  background-image: linear-gradient(to bottom, rgba(0,72,197,1), rgba(0,30,154,1));
+}
 .bc_white{
   background-color: white;
 }
@@ -234,6 +231,23 @@ header .row h3:first-child{
   font-size: 22px;
   color: rgb(91, 105, 135);
 }
+
+/* settima sezione */
+.settima_sezione h2{
+  color: white;
+  padding-bottom: 10px;
+}
+
+.settima_sezione a{
+  color: rgb(0,124,247);
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+
 
 @media screen and (min-width: 768px) and (max-width: 991px){
 
