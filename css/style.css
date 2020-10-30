@@ -9,7 +9,7 @@ font-family: 'Roboto', sans-serif;
 }
 
 .bg_linear_blue{
-  background-color: blue;
+   background-image: linear-gradient(to bottom, rgba(0,72,197,1), rgba(0,30,154,1));
 }
 
 .bg_dark_blue{
@@ -26,9 +26,7 @@ font-family: 'Roboto', sans-serif;
 .sesta_sezione{
   height: 600px;
 }
-.quinta_sezione{
-  height: 300px;
-}
+
 
 /* utility */
 .bc_white{
@@ -45,6 +43,9 @@ font-family: 'Roboto', sans-serif;
 
 .py_30{
   padding: 30px 0;
+}
+.py_10{
+  padding: 10px 0;
 }
 
 .fs_10{
@@ -80,8 +81,8 @@ font-family: 'Roboto', sans-serif;
 }
 
 .navbar-default .navbar-toggle {
-    border: none;
-    padding: 10px 10px;
+  border: none;
+  padding: 10px 10px;
   }
  /* #cont_white:after{
   font-family: "Font Awesome 5 Free";
@@ -193,8 +194,28 @@ header .row h3:first-child{
   margin-top: 30px;
 }
 
-.quarta_sezione a{
+.quarta_sezione a, .quinta_sezione a{
   color: rgb(0,124,247);
+}
+
+/* quinta sezione */
+.quinta_sezione{
+  color: white;
+}
+
+.quinta_sezione a{
+  color: rgb(0, 215, 210);
+}
+
+.row .row .col-xs-7{
+  opacity: 0.6;
+}
+
+.row .row div{
+  border-bottom: 1px solid white;
+}
+.row .row{
+  margin: 0 1px;
 }
 
 
