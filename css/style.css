@@ -418,6 +418,10 @@ footer ul li:first-child{
     padding-bottom: 60px;
   }
 
+  .gen_footer .col-xs-12, .gen_footer ul{
+    padding-left: 0;
+  }
+
   .nuvoletta{
     position: fixed;
     left: 5px;
@@ -458,6 +462,10 @@ footer ul li:first-child{
 
   .car_text{
     padding-bottom: 60px;
+  }
+
+  .gen_footer .col-xs-12, .gen_footer ul{
+    padding-left: 0;
   }
 
   .nuvoletta{
