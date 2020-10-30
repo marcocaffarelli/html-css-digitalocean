@@ -2,25 +2,19 @@
 font-family: 'Roboto', sans-serif;
 }
 
-/* Struttura */
+/* utility */
+.bg_linear_blue{
+  background-image: linear-gradient(to bottom, rgba(0,72,197,1), rgba(0,30,154,1));
+}
+
+.bg_dark_blue{
+  background-color: rgb(3, 28, 78);
+}
 
 .bg_grey{
   background-color: rgb(243, 245, 249);
 }
 
-
-.bg_dark_blue{
-  background-color: darkblue;
-}
-
-.gen_footer{
-  height: 400px;
-}
-
-/* utility */
-.bg_linear_blue{
-  background-image: linear-gradient(to bottom, rgba(0,72,197,1), rgba(0,30,154,1));
-}
 .bc_white{
   background-color: white;
 }
@@ -113,6 +107,10 @@ header .row h3:first-child{
   margin-left: 2.5%;
 }
 
+.container_form a{
+  color: rgb(0 105 255);
+}
+
 .google_button{
   height: 34px;
   box-shadow: 2px 2px 1px lightgrey;
@@ -133,7 +131,7 @@ header .row h3:first-child{
 
 /****** main ******/
 
-.seconda_sezione, .terza_sezione, .quarta_sezione, .quinta_sezione, .sesta_sezione, .settima_sezione{
+.seconda_sezione, .terza_sezione, .quarta_sezione, .quinta_sezione, .sesta_sezione, .settima_sezione, .gen_footer{
   padding-top: 30px;
   padding-bottom: 40px;
 }
@@ -143,8 +141,12 @@ header .row h3:first-child{
   height: 80%;
 }
 
+.prima_sezione a{
+  color: rgb(0 105 255);
+}
+
 /* seconda sezione */
-.seconda_sezione h2, .seconda_sezione h6, .terza_sezione h2, .quarta_sezione h2, .quarta_sezione h6 .sesta_sezione h2{
+.seconda_sezione h2, .seconda_sezione h4, .terza_sezione h2, .quarta_sezione h2, .quarta_sezione h5 .sesta_sezione h2{
   color: rgb(3, 28, 78);
 }
 
@@ -208,7 +210,7 @@ header .row h3:first-child{
   color: lightgrey;
 }
 
-.row .row div{
+.row .py_10 div{
   border-bottom: 1px solid white;
 }
 .row .row{
@@ -216,6 +218,10 @@ header .row h3:first-child{
 }
 
 /* sesta sezione */
+.sesta_sezione h2{
+  padding-bottom: 40px;
+}
+
 .white_container{
   background-color: white;
   width: 50%;
@@ -225,6 +231,7 @@ header .row h3:first-child{
 
 .white_container img{
   width: 50%;
+  padding-bottom: 10px;
 }
 
 .fs_22{
@@ -247,6 +254,26 @@ header .row h3:first-child{
   font-weight: bolder;
 }
 
+/******footer ******/
+footer{
+  color: rgb(91, 105, 135);
+}
+
+.icon_footer i{
+  padding: 5px;
+}
+
+footer li{
+  border: none;
+  list-style: none;
+  padding: 5px 0;
+}
+
+footer ul li:first-child{
+  color: white;
+  font-size: 16px;
+  font-weight: bolder;
+}
 
 
 @media screen and (min-width: 768px) and (max-width: 991px){
