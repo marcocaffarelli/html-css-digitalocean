@@ -53,6 +53,9 @@ font-family: 'Roboto', sans-serif;
 .navbar-default .navbar-nav>li>a{
   color: black;
 }
+.navbar-default .navbar-nav>li>a:hover{
+  color: rgb(22, 51, 255);
+}
 
 #signup{
   color: rgb(0,124,247);
@@ -60,6 +63,10 @@ font-family: 'Roboto', sans-serif;
   border-radius: 5px;
   padding: 2px 5px;
   margin: 12px;
+}
+#signup:hover{
+  color: white;
+  background-color: rgb(0,124,247);
 }
 
 .navbar-default .navbar-toggle .icon-bar{
@@ -107,8 +114,13 @@ header .row h3:first-child{
   margin-left: 2.5%;
 }
 
+.container_form button:hover{
+  color: white;
+  background-color: rgb(22, 51, 255);
+}
+
 .container_form a{
-  color: rgb(0 105 255);
+  color: rgb(0, 105, 255);
 }
 
 .google_button{
@@ -117,6 +129,7 @@ header .row h3:first-child{
   width: 95%;
   margin: auto;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .google_button img{
@@ -136,13 +149,21 @@ header .row h3:first-child{
   padding-bottom: 40px;
 }
 /* prima sezione */
-
+.prima_sezione h4, .seconda_sezione p, .quarta_sezione p{
+  color: rgb(91, 105, 135);
+}
 .prima_sezione img{
   height: 80%;
 }
 
 .prima_sezione a{
-  color: rgb(0 105 255);
+  color: rgb(0, 105, 255);
+  font-weight: bold;
+}
+
+.prima_sezione a:hover, .quarta_sezione a:hover, .quinta_sezione a:hover, .sesta_sezione a:hover{
+  color: rgb(22, 51, 255);
+  text-decoration: none;
 }
 
 /* seconda sezione */
@@ -150,15 +171,12 @@ header .row h3:first-child{
   color: rgb(3, 28, 78);
 }
 
-.seconda_sezione p, .quarta_sezione p{
-  color: rgb(91, 105, 135);
-}
-
 .seconda_sezione li{
   color: rgba(3, 27, 78, 0.6);
   list-style: none;
   border-left: 1px solid grey;
   padding: 5px;
+  cursor: pointer;
 }
 
 /* terza sezione */
@@ -222,6 +240,10 @@ header .row h3:first-child{
   padding-bottom: 40px;
 }
 
+.sesta_sezione a{
+  color: rgb(0, 105, 255);
+}
+
 .white_container{
   background-color: white;
   width: 50%;
@@ -254,6 +276,10 @@ header .row h3:first-child{
   font-weight: bolder;
 }
 
+.settima_sezione a:hover{
+  background-color: rgba(255, 255, 255, 0.9);
+  text-decoration: none;
+}
 /******footer ******/
 footer{
   color: rgb(91, 105, 135);
@@ -267,6 +293,18 @@ footer li{
   border: none;
   list-style: none;
   padding: 5px 0;
+}
+
+footer li a{
+  color: rgb(91, 105, 135);
+}
+
+.icon_footer i:hover, footer li a:hover{
+  color: white;
+  cursor: pointer;
+}
+footer li a:hover{
+  text-decoration: none;
 }
 
 footer ul li:first-child{
@@ -339,26 +377,24 @@ footer ul li:first-child{
   }
 
 
-.nuvoletta{
-  position: fixed;
-  left: 5px;
-  bottom: 20px;
+  .nuvoletta{
+    position: fixed;
+    left: 5px;
+    bottom: 20px;
 
-}
-.square{
-  position: fixed;
-  left: 5px;
-  bottom: 90px;
-}
+  }
+  .square{
+    position: fixed;
+    left: 5px;
+    bottom: 90px;
+  }
 
-
-.num_2{
-  position: fixed;
-  bottom: 155px;
-  left: 69px;
-  right: auto;
-
-}
+  .num_2{
+    position: fixed;
+    bottom: 155px;
+    left: 69px;
+    right: auto;
+  }
 
 @media screen and (max-width: 512px){
 
