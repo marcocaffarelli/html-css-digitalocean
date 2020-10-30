@@ -246,13 +246,12 @@ header .row h3:first-child{
   color: rgb(0, 215, 210);
 }
 
-.quinta_sezione a:after{
-  font-family: "Font Awesome 5 Free";
-  content: "\f105";
-}
-
 .row .row .col-xs-7{
   color: lightgrey;
+}
+
+.row .row .col-xs-3{
+  text-align: right;
 }
 
 .row .py_10 div{
@@ -388,22 +387,10 @@ footer ul li:first-child{
 
 
 @media screen and (min-width: 768px) and (max-width: 991px){
-
-  h1{
-    font-size: 36px;
-  }
-
   .nav>li>a {
     padding: 15px 5px;
   }
 
-  .prima_sezione img{
-    height: 60px;
-  }
-
-  .terza_sezione img{
-    padding-top: 80px;
-  }
 
   .terza_sezione .fa-angle-left, .terza_sezione .fa-angle-right{
      font-size: 50px;
@@ -414,36 +401,9 @@ footer ul li:first-child{
      font-size: 50px;
   }
 
-  .car_text{
-    padding-bottom: 60px;
-  }
-
-  .gen_footer .col-xs-12, .gen_footer ul{
-    padding-left: 0;
-  }
-
-  .nuvoletta{
-    position: fixed;
-    left: 5px;
-    bottom: 20px;
-  }
-
-  .square{
-    position: fixed;
-    left: 5px;
-    bottom: 90px;
-  }
-
-  .num_2{
-    position: fixed;
-    bottom: 155px;
-    left: 69px;
-    right: auto;
-  }
 }
 
-@media screen and (max-width: 767px){
-
+@media screen and (max-width: 991px){
   h1{
     font-size: 36px;
   }
@@ -456,10 +416,6 @@ footer ul li:first-child{
     padding-top: 80px;
   }
 
-  .terza_sezione .fa-angle-left, .terza_sezione .fa-angle-right, .sesta_sezione .fa-angle-left, .sesta_sezione .fa-angle-right:not(:first-child){
-     display: none;
-  }
-
   .car_text{
     padding-bottom: 60px;
   }
@@ -487,13 +443,28 @@ footer ul li:first-child{
     right: auto;
   }
 
-@media screen and (max-width: 512px){
+}
 
+@media screen and (max-width: 767px){
+  .terza_sezione .fa-angle-left, .terza_sezione .fa-angle-right, .sesta_sezione .fa-angle-left, .sesta_sezione .fa-angle-right:not(:first-child){
+     display: none;
+  }
+}
+
+@media screen and (max-width: 552px){
   .row .row div{
     padding: 0;
   }
+}
 
-  @media screen and (max-width: 500px){
+@media screen and (max-width: 500px){
   .row .row div{
     font-size: 10px;
   }
+}
+
+@media screen and (max-width: 326px){
+  .row .row div{
+    font-size: 7px;
+  }
+}
