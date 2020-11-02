@@ -209,7 +209,7 @@ header .row h3:first-child{
 }
 
 .terza_sezione .fa-angle-left, .terza_sezione .fa-angle-right{
-   font-size: 70px;
+   font-size: 60px;
    padding: 0 10px;
    position: relative;
    top: 70px;
@@ -279,10 +279,10 @@ header .row h3:first-child{
 }
 
 .sesta_sezione .fa-angle-left, .sesta_sezione .fuori{
-   font-size: 70px;
+   font-size: 60px;
    padding: 0 10px;
    position: relative;
-   bottom: 90px;
+   bottom: 70px;
 }
 
 .white_container{
