@@ -148,7 +148,15 @@ header .row h3:first-child{
 }
 
 .google_button img{
+  position: absolute;
   height: 22px;
+  margin: 6px 12px;
+
+}
+
+.sign_up{
+  width: 100%;
+  display: inline-block;
   margin: 6px 0;
 }
 
