@@ -356,11 +356,27 @@ footer ul li:first-child{
 }
 
 .nuvoletta{
+  position: relative;
+  left: -10px;
   background-color: white;
-  border-radius: 5px;
   width: 150px;
   display: inline-block;
+  border-radius: 5px;
 }
+
+.nuvoletta:after{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 10px 0 10px 10px;
+border-color: transparent #FFFFFF;
+display: block;
+width: 0;
+z-index: 1;
+right: -8px;
+top: 33px;
+}
+
 .square{
   width: 80px;
   height: 80px;
